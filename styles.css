@@ -97,5 +97,10 @@ div[data-testid="stTabs"] button[role="tab"] {
     color: white;          
     word-break: break-all;   
 }
+header, footer, [data-testid="stToolbar"] {
+    visibility: hidden;
+    height: 0px;
+}
+
 
 
