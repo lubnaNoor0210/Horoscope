@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 
 load_dotenv()
-API_KEY = os.getenv("FIREBASE_WEB_API_KEY")
+API_KEY = st.secrets["FIREBASE_WEB_API_KEY"]
 
 FIREBASE_SIGNUP_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={API_KEY}"
 FIREBASE_SIGNIN_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API_KEY}"
