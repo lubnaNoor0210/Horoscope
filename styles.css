@@ -1,0 +1,101 @@
+[data-testid="stAppViewContainer"] {
+    background: radial-gradient(circle at top center,     
+  #1e1a3c 0%,    
+  #3a4d56 70%,    
+  #4d6a73 100%
+    );
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+    text-shadow: 0 0 6px #f5deb3aa, 0 0 12px #bfa76b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 0 0 6px #f5deb3aa, 0 0 12px #bfa76b;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    text-shadow: 0 0 6px #f5deb3aa, 0 0 12px #bfa76b;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(147, 197, 253, 0.5);
+}
+
+input, textarea {
+    color: black !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    color: white !important;
+}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] > label > div {
+    color: white !important;
+}
+label {
+    color: white !important;
+}
+
+.stMarkdown h3,
+.stMarkdown p,
+.stMarkdown div {
+    color: white !important;
+}
+
+div[data-testid="stAlert"] {
+    background-color: #496c6a !important;  
+    color: white !important;              
+    border: 1px solid #5fffe3 !important; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.3);
+}
+div[data-testid="stAlert"] * {
+    color: white !important;
+}
+input, textarea {
+    color: white !important;
+    background-color: #2a605d !important;
+    border: 1px solid #3f8c80;
+}
+.sidebar-user {
+    color: #f0f0f0;
+    font-size: 14px;
+}
+
+.sidebar-user h4 {
+    margin-bottom: 10px;
+    color: #ffd700;
+    font-size: 20px;
+}
+
+.sidebar-user p {
+    margin: 6px 0;
+}
+
+.sidebar-user .uid {
+    font-size: 11px;
+    color: #ccc;
+}
+section[data-testid="stSidebar"] button {
+    color: black !important;
+}
+
+div[data-testid="stTabs"] button[role="tab"] {
+    color: white !important;
+    font-weight: bold;
+}
+.sidebar-user .uid {
+    font-size: 14px;         
+    font-weight: bold;
+    color: white;          
+    word-break: break-all;   
+}
+
+

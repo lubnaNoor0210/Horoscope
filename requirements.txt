@@ -1,0 +1,6 @@
+openai-agents
+openai
+streamlit
+requests
+python-dotenv
+google-generativeai
